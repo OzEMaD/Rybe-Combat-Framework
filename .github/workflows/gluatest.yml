@@ -1,0 +1,14 @@
+name: GLuaTest Runner
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  run-gluatest:
+    uses: CFC-Servers/GLuaTest/.github/workflows/run_tests.yml@main
+
+    with:
+      requirements: lua/tests/acf/deps.txt
