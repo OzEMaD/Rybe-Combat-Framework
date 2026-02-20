@@ -20,17 +20,18 @@ local function AddStatus(Name, Branches)
 	local Data   = Repository[Name]
 	local Branch = Branches[Data.Head] or Branches.master
 	local Base   = MenuBase:AddCollapsible(Name .. " Status")
+	local DisplayName = (Name == "Server" or Name == "Client") and "RCF" or Name
 
-	Base:SetTooltip("Left-click to copy the " .. Name .. " version to your clipboard!")
+	Base:SetTooltip("Left-click to copy the RCF version to your clipboard!")
 
 	function Base:OnMousePressed(Code)
 		if Code ~= MOUSE_LEFT then return end
 
-		SetClipboardText(Data.Code or "Unknown")
+		SetClipboardText("RCF-Master")
 	end
 
 	Base:AddTitle("Status: " .. (Data.Status or "Unknown"))
-	Base:AddLabel("Version: " .. (Data.Code or "Unknown"))
+	Base:AddLabel("Version: RCF-Master")
 
 	if Branch and Data.Status ~= "Up to date" then
 		Base:AddLabel("Latest: " .. Branch.Code)
@@ -72,7 +73,7 @@ local function UpdateMenu()
 end
 
 local function CreateMenu(Menu)
-	Menu:AddTitle("ACF Version Status")
+	Menu:AddTitle("Rybe Combat Framework Version Status")
 
 	MenuBase = Menu:AddPanel("ACF_Panel")
 
