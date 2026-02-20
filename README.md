@@ -1,4 +1,6 @@
-# Rybe's Combat Framework
+
+
+# Rybe's Combat Framework - FUCK CREW!
 > A classic version of [ACF](https://github.com/ACF-Team/ACF-3) for those who miss that classic feel!
 
 Rybe's Combat Framework (RCF) is an unofficial and possibly buggy fork of [ACF](https://github.com/ACF-Team/ACF-3)
@@ -27,3 +29,5 @@ Install a Git client, such as the [Github client](https://desktop.github.com/) o
 ## Contributing
 
 Found an annoying bug in the addon? Want to suggest a brand new feature? Think something should be changed? Make sure to check out [Contributing to RCF](CONTRIBUTING.md), where we have a full guide on how to properly contribute to this project.
+
+
