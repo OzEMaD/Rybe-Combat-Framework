@@ -8,12 +8,12 @@ Rybe's Combat Framework (RCF) is an unofficial and possibly buggy fork of [ACF](
 ## Installation
 
 ### Dependencies
-    ACF Requires these to work
+    RCF Requires these to work
 
 Wiremod ([Workshop](https://steamcommunity.com/workshop/filedetails/?id=160250458) or [Github](https://github.com/wiremod))
 
 Prop Protection with [CPPI](http://ulyssesmod.net/archive/CPPI_v1-3.pdf) is not required, but highly recommended. We'd recommend Nadmod PP ([Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3492696307) or [github](https://git.groovyexpress.com/edshot99/NadmodPP)
-ACF works best when used with thin plate models and SProps ([Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=173482196)) provides a more complete selection over the vanilla PHX plates.
+RCF works best when used with thin plate models and SProps ([Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=173482196)) provides a more complete selection over the vanilla PHX plates.
 
 ### Git Client (Recommended)
 
